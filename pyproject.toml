@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "minimarket"
+version = "0.1"
+description = ""
+authors = ["serg <sergwle@gmail.com>"]
+packages = [ { include = "minimarket" } ]
+
+[tool.poetry.dependencies]
+python = "3.10.6"
+Django = "^4.1"
+django-rest-framework = "^0.1.0"
+
+[tool.poetry.dev-dependencies]
+ipdb = "^0.13.9"
+pre-commit = "^2.20.0"
+"backports.weakref" = "^1.0.post1"
+"backports.zoneinfo" = "^0.2.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

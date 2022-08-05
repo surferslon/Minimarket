@@ -1,0 +1,56 @@
+[
+  {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "name": "Hammer",
+        "price": "4.99",
+        "count": 30,
+        "categories": [1]
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "name": "Axe",
+        "price": "2.99",
+        "count": 9,
+        "categories": [1]
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "name": "Tube",
+        "price": "8.95",
+        "count": 3,
+        "categories": [2]
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "name": "Some item",
+        "price": "8.15",
+        "count": 19,
+        "categories": [1, 2]
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 1,
+    "fields": {
+      "name": "Tools"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 2,
+    "fields": {
+      "name": "Parts"
+    }
+  }
+]
